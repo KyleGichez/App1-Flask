@@ -17,7 +17,9 @@ from flask import Flask
 ```
 
 Create an app instance using the name variable.
+
 ```app = Flask(__name__)
+
 ```
 
 Routes in flask are defined using the @app.route() decorator.
