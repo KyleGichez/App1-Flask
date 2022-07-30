@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Set-up] (#set-up)
+- [Setup] (#setup)
 - [Requirements](#requirements)
 - [License](#License)
 - [Author](#author)
