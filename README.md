@@ -20,10 +20,10 @@ Also, you can choose to download this project to your local working environment 
 
 ### Set-up
 ````Set-up 
-python3 -m venv --without-pip virtual
-source virtual/bin/activate
-curl https://bootstrap.pypa.io/get-pip.py | python
-pip install flask
+$ python3 -m venv --without-pip virtual
+$ source virtual/bin/activate
+$ curl https://bootstrap.pypa.io/get-pip.py | python
+$ pip install flask
 $ deactivate
 ````
 
@@ -39,9 +39,9 @@ MarkupSafe==2.1.1
 Werkzeug==2.2.0
 zipp==3.8.1
 ````
-Run **pip install -r requirements.txt** command to install the requirements text file.
-Run **pip freeze** command to check all the dependencies that are currently installed in your project.
-Run **pip freeze > requirements.txt** command to update the requirements text file.
+- Run **pip install -r requirements.txt** command to install the requirements text file.
+- Run **pip freeze** command to check all the dependencies that are currently installed in your project.
+- Run **pip freeze > requirements.txt** command to update the requirements text file.
 
 ### License
 This project is licensed under MIT License.
