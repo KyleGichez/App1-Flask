@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Set-upVirtualEnvironment] (#set-up virtual environment)
+- [Set-upVirtualEnvironment] (#set-upvirtualenvironment)
 - [Requirements](#requirements)
 - [License](#License)
 - [Author](#author)
