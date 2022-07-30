@@ -24,6 +24,7 @@ python3 -m venv --without-pip virtual
 source virtual/bin/activate
 curl https://bootstrap.pypa.io/get-pip.py | python
 pip install flask
+$ deactivate
 ````
 
 ### Requirements
