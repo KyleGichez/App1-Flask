@@ -9,7 +9,7 @@
 - [Author](#author)
 
 ### Overview
-This is a software program built in flask. It shows you to learn how to set-up a basic flask application. Let's have a look ⏩
+This is a software program built in flask. It shows you how to set-up a basic flask application. Let's have a look ⏩
 
 ### Installation
 To install this flask application, clone this repository into your local working environment and open it in your favorite IDE.
@@ -18,7 +18,7 @@ git clone  https://github.com/KyleGichez/App1-Flask.git
 ````
 Also, you can choose to download this project to your local working environment as a zip folder when you click the green code button in this repository.
 
-### Set-up virtual environment.
+### Set-up virtual environment
 ````Set-up 
 python3 -m venv --without-pip virtual
 source virtual/bin/activate
@@ -38,6 +38,10 @@ MarkupSafe==2.1.1
 Werkzeug==2.2.0
 zipp==3.8.1
 ````
+Run **pip install -r requirements.txt** command to install the requirements text file.
+Run **pip freeze** command to check all the dependencies that are currently installed in your project.
+Run **pip freeze > requirements.txt** command to update the requirements text file.
+
 ### License
 This project is licensed under MIT License.
 
