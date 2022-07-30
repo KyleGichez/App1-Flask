@@ -1,40 +1,47 @@
 # App1-Flask
-This is my first flask app I have coded while learning to set a basic flask app. Here is the Flask installation process.
-```
-python3.6 -m venv --without-pip virtual =====>>> Setting up a vitual environment.(virtual)
-source virtual/bin/activate =======>>>> Activating the virtual environment.
-(virtual)sexymsdollarbaby@SexyMsDollarBaby:$   =========>>>> Confirm if the virtual environment has been set correctly by checking the start of your terminal.
-(virtual)sexymsdollarbaby@SexyMsDollarBaby:$ deactivate  ==========>>>> Deactivate the virtual environment.
-curl https://bootstrap.pypa.io/get-pip.py | python   =========>>>> Install the latest version of pip.
-pip install flask =======>>>> Install Flask into our project.
 
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Set-up virtual environment] (#set-up virtual environment)
+- [Requirements](#requirements)
+- [License](#License)
+- [Author](#author)
+
+### Overview
+This is a software program built in flask. It shows you to learn how to set-up a basic flask application. Let's have a look ⏩
+
+### Installation
+To install this flask application, clone this repository into your local working environment and open it in your favorite IDE.
+````clone repository
+git clone  https://github.com/KyleGichez/App1-Flask.git
+````
+Also, you can choose to download this project to your local working environment as a zip folder when you click the green code button in this repository.
+
+### Set-up virtual environment.
+````Set-up 
+python3 -m venv --without-pip virtual
+source virtual/bin/activate
+curl https://bootstrap.pypa.io/get-pip.py | python
+pip install flask
 ````
 
-## Basic Flask App Architecture
-From the flask module import Flask class.
-```
-from flask import Flask
-```
-
-Create an app instance using the name variable.
-```app = Flask(__name__)
-```
-
-Routes in flask are defined using the @app.route() decorator.
-```
-@app.route('/') - indicates the homepage.
+### Requirements
+To check all the dependencies installed when building this project, download the requirements.txt file.
+````requirements.txt file
+click==8.1.3
+Flask==2.1.3
+importlib-metadata==4.12.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+Werkzeug==2.2.0
+zipp==3.8.1
 ````
-A view function is the handler of the route.
-```
-@app.route('/')
-def index():
-    return '<h1>Hello Sexy Ms Dollar Baby, Welcome to Flask!'</h1>
-```
+### License
+This project is licensed under MIT License.
 
-Setting up the server
-```
-if __name__ == '__main__':
-app.run(debug = True)
-```
-The run() method is used to launch the flask development server.
-Always set the debug mode to True - Activates the debugger and the reloader.
+### Author
+- [Portfolio] (https://gichuremaina.netlify.app)
+- [GitHub] (https://github.com/KyleGichez)
+- [LinkedIn] (https://www.linkedin.com/in/gichure-maina-a45aab202/)
