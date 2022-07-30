@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Set-upVirtualEnvironment] (#set-upvirtualenvironment)
+- [Set-up] (#set-up)
 - [Requirements](#requirements)
 - [License](#License)
 - [Author](#author)
@@ -18,7 +18,7 @@ git clone  https://github.com/KyleGichez/App1-Flask.git
 ````
 Also, you can choose to download this project to your local working environment as a zip folder when you click the green code button in this repository.
 
-### Set-up virtual environment
+### Set-up
 ````Set-up 
 python3 -m venv --without-pip virtual
 source virtual/bin/activate
